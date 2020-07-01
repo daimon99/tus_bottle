@@ -1,0 +1,3 @@
+bottle
+persist-queue
+py3fdfsv2 >= 2.2.2

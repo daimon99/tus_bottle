@@ -16,7 +16,7 @@
       target: '#drag-drop-area'
     })
     .use(Uppy.Tus, {
-      endpoint: '/upload',
+      endpoint: '/tus-upload',
       resume: true,
       autoRetry: true,
       retryDelays: [0, 1000, 3000, 5000],
